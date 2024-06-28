@@ -8,6 +8,7 @@ import RefundRequests from "../../components/RefundRequests";
 import ProTips from "./ProTips";
 import MoreCustomers from "./MoreCustomers";
 import ProductViews from "./ProductViews";
+import TestDoc from "../TestDoc";
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
                     <ProductViews className={styles.card} />
                     <ProTips className={styles.card} />
                     <MoreCustomers /> */}
+                    <TestDoc />
                 </div>
                 <div className={styles.col}>
                     {/* <PopularProducts className={styles.card} views="4" />
