@@ -24,7 +24,7 @@ const Page = ({ wide, children, title }) => {
                         })}
                     >
                         {title && (
-                            <div className={cn("h3", styles.title)}>
+                            <div className={cn("h4", styles.title)}>
                                 {title}
                             </div>
                         )}
